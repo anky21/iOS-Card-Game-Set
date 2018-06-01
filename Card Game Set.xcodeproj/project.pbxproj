@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		854FB71520C0FC3B004F7403 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854FB71420C0FC3B004F7403 /* Set.swift */; };
 		859906E920BEC47600D4DB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859906E820BEC47600D4DB50 /* AppDelegate.swift */; };
 		859906EB20BEC47600D4DB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859906EA20BEC47600D4DB50 /* ViewController.swift */; };
 		859906EE20BEC47600D4DB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859906EC20BEC47600D4DB50 /* Main.storyboard */; };
 		859906F020BEC47700D4DB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 859906EF20BEC47700D4DB50 /* Assets.xcassets */; };
 		859906F320BEC47700D4DB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859906F120BEC47700D4DB50 /* LaunchScreen.storyboard */; };
+		859906FD20BEC4E500D4DB50 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859906FC20BEC4E500D4DB50 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		854FB71420C0FC3B004F7403 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
 		859906E520BEC47600D4DB50 /* Card Game Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Game Set.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		859906E820BEC47600D4DB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859906EA20BEC47600D4DB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		859906EF20BEC47700D4DB50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		859906F220BEC47700D4DB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		859906F420BEC47700D4DB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		859906FC20BEC4E500D4DB50 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,32 @@
 		859906E720BEC47600D4DB50 /* Card Game Set */ = {
 			isa = PBXGroup;
 			children = (
-				859906E820BEC47600D4DB50 /* AppDelegate.swift */,
+				859906FB20BEC4C400D4DB50 /* Models */,
+				859906FA20BEC4B700D4DB50 /* Supporting Files */,
 				859906EA20BEC47600D4DB50 /* ViewController.swift */,
 				859906EC20BEC47600D4DB50 /* Main.storyboard */,
 				859906EF20BEC47700D4DB50 /* Assets.xcassets */,
-				859906F120BEC47700D4DB50 /* LaunchScreen.storyboard */,
 				859906F420BEC47700D4DB50 /* Info.plist */,
 			);
 			path = "Card Game Set";
+			sourceTree = "<group>";
+		};
+		859906FA20BEC4B700D4DB50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				859906E820BEC47600D4DB50 /* AppDelegate.swift */,
+				859906F120BEC47700D4DB50 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		859906FB20BEC4C400D4DB50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				859906FC20BEC4E500D4DB50 /* Card.swift */,
+				854FB71420C0FC3B004F7403 /* Set.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +157,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				854FB71520C0FC3B004F7403 /* Set.swift in Sources */,
 				859906EB20BEC47600D4DB50 /* ViewController.swift in Sources */,
+				859906FD20BEC4E500D4DB50 /* Card.swift in Sources */,
 				859906E920BEC47600D4DB50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
