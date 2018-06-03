@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		854FB71520C0FC3B004F7403 /* Set.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854FB71420C0FC3B004F7403 /* Set.swift */; };
+		854FB71720C10493004F7403 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854FB71620C10493004F7403 /* RoundedButton.swift */; };
+		854FB71920C4123A004F7403 /* CustomRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854FB71820C4123A004F7403 /* CustomRoundButton.swift */; };
 		859906E920BEC47600D4DB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859906E820BEC47600D4DB50 /* AppDelegate.swift */; };
 		859906EB20BEC47600D4DB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 859906EA20BEC47600D4DB50 /* ViewController.swift */; };
 		859906EE20BEC47600D4DB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 859906EC20BEC47600D4DB50 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 
 /* Begin PBXFileReference section */
 		854FB71420C0FC3B004F7403 /* Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Set.swift; sourceTree = "<group>"; };
+		854FB71620C10493004F7403 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		854FB71820C4123A004F7403 /* CustomRoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundButton.swift; sourceTree = "<group>"; };
 		859906E520BEC47600D4DB50 /* Card Game Set.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Card Game Set.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		859906E820BEC47600D4DB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		859906EA20BEC47600D4DB50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +86,8 @@
 			children = (
 				859906FC20BEC4E500D4DB50 /* Card.swift */,
 				854FB71420C0FC3B004F7403 /* Set.swift */,
+				854FB71620C10493004F7403 /* RoundedButton.swift */,
+				854FB71820C4123A004F7403 /* CustomRoundButton.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -158,7 +164,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				854FB71520C0FC3B004F7403 /* Set.swift in Sources */,
+				854FB71720C10493004F7403 /* RoundedButton.swift in Sources */,
 				859906EB20BEC47600D4DB50 /* ViewController.swift in Sources */,
+				854FB71920C4123A004F7403 /* CustomRoundButton.swift in Sources */,
 				859906FD20BEC4E500D4DB50 /* Card.swift in Sources */,
 				859906E920BEC47600D4DB50 /* AppDelegate.swift in Sources */,
 			);
